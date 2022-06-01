@@ -21,6 +21,9 @@ export default {
     ios: {
       supportsTablet: true
     },
+    android: {
+      package: "com.lupa.lupa"
+    },
     extra: {
       apiKey: process.env.API_KEY,
       authDomain: process.env.AUTH_DOMAIN,
